@@ -1,2 +1,2 @@
 # Neo-Space
-Proyecto Final de Grado 
+Proyecto Final 
