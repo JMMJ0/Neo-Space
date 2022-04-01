@@ -13,7 +13,7 @@ En la página principal aparecerán imagenes de los principales planetas a los c
 En la parte superior izquierda encontraremos un menú el cual nos permitirá elegir entre INICIO COHETES COMPAÑIAS DESTINOS y en la parte derecha aparecerá en caso de no estar logueado con una cuenta las opciones de REGISTRARSE O ACCERDER, en caso de que SI que estemos logueados aparecera UN MENU DESPLEGABLE con las opciones MI PERFIL MIS BILLETES VIAJES RALIZADOS LOG OUT    
 ## BOCETO
 
-![App Screenshot]()
+![image](https://user-images.githubusercontent.com/72375115/161305872-5e6bd0d3-2124-4847-8697-2d45b96213b7.png)
 
 
 ## ENLACE A BOCETO EN FIGMA
