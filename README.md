@@ -18,7 +18,8 @@ En la parte superior izquierda encontraremos un menú el cual nos permitirá ele
 
 ## ENLACE A BOCETO EN FIGMA
 
-https://www.figma.com/file/SYyFevlfwZVtmMF11owpQx/SPACE%3ANEO?node-id=0%3A1
+![image](https://user-images.githubusercontent.com/72375115/161306016-803d2bf8-4a44-4a81-bcfc-f2e6aa8e314c.png)
+
 
 ## COLORES DE REFERENCIA cambiar colores 
 
