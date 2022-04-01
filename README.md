@@ -13,15 +13,15 @@ En la página principal aparecerán imagenes de los principales planetas a los c
 En la parte superior izquierda encontraremos un menú el cual nos permitirá elegir entre INICIO COHETES COMPAÑIAS DESTINOS y en la parte derecha aparecerá en caso de no estar logueado con una cuenta las opciones de REGISTRARSE O ACCERDER, en caso de que SI que estemos logueados aparecera UN MENU DESPLEGABLE con las opciones MI PERFIL MIS BILLETES VIAJES RALIZADOS LOG OUT    
 ## BOCETO
 
-![image](https://user-images.githubusercontent.com/72375115/161305872-5e6bd0d3-2124-4847-8697-2d45b96213b7.png)
+![image](https://user-images.githubusercontent.com/72375115/161306016-803d2bf8-4a44-4a81-bcfc-f2e6aa8e314c.png)
 
 
 ## ENLACE A BOCETO EN FIGMA
 
-![image](https://user-images.githubusercontent.com/72375115/161306016-803d2bf8-4a44-4a81-bcfc-f2e6aa8e314c.png)
+https://www.figma.com/file/SYyFevlfwZVtmMF11owpQx/SPACE%3ANEO?node-id=0%3A1
 
 
-## COLORES DE REFERENCIA cambiar colores 
+## COLORES DE REFERENCIA 
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
