@@ -40,7 +40,7 @@ https://www.figma.com/file/SYyFevlfwZVtmMF11owpQx/SPACE%3ANEO?node-id=0%3A1
 
 
 ## DIAGRAMA E/R
-INSERTAR FOTO DEL DIAGRAMA DE LA BASE DE DATOS AUN POR DEFINIR 
+![image](https://user-images.githubusercontent.com/72375115/161391412-2ff244c2-1c51-465f-aec6-16b382497ee4.png)
 ## Authors
 
 - [@JMMJ0](https://github.com/JMMJ0)
