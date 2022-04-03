@@ -1,16 +1,22 @@
-
-
 # SPACE NEO
 SPACE NEO será una página web basada en la compra de viajes espaciales, concretamente su función será dar la posibilidad a los usuarios de poder viajar al espacio en cohetes habilitados para el turismo espacial.
-
-
 
 
 ## Landing Page
 En la página principal aparecerán imagenes de los principales planetas a los cuales es posible viajar. También se mostraran las distintas categorias de cohetes que ofrecen las compañias las cuales ofrecen los cohetes así como la posibilidad de viajar al espacio.
 
 
-En la parte superior izquierda encontraremos un menú el cual nos permitirá elegir entre INICIO COHETES COMPAÑIAS DESTINOS y en la parte derecha aparecerá en caso de no estar logueado con una cuenta las opciones de REGISTRARSE O ACCERDER, en caso de que SI que estemos logueados aparecera UN MENU DESPLEGABLE con las opciones MI PERFIL MIS BILLETES VIAJES RALIZADOS LOG OUT    
+En la parte superior izquierda encontraremos un menú el cual nos permitirá elegir entre INICIO COHETES COMPAÑIAS DESTINOS y en la parte derecha aparecerá en caso de no estar logueado con una cuenta las opciones de REGISTRARSE O ACCERDER, en caso de que SI que estemos logueados aparecera UN MENU DESPLEGABLE con las opciones MI PERFIL MIS BILLETES VIAJES RALIZADOS LOG OUT   
+
+
+## USUARIOS   
+Habrá varios tipos de usuarios, estarán los usuarios corrientes los cuales podrán visualizar el contenido de la página así como su información personal y viajes.
+
+Estarán también los usuarios de las compaías los cuales tendrán las mismas posibilidadesd que los usuarios corrientes y se le añaden permisos para que puedan subir a la web los distintos viajes y destinos que ofrecen.
+
+Por último está el usuario administrador que podrá controlar todo lo que aparece en la página.
+
+
 ## BOCETO
 
 ![image](https://user-images.githubusercontent.com/72375115/161306016-803d2bf8-4a44-4a81-bcfc-f2e6aa8e314c.png)
