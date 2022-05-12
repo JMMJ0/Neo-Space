@@ -1,64 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# SPACE NEO
+SPACE NEO será una página web basada en la compra de viajes espaciales, concretamente su función será dar la posibilidad a los usuarios de poder viajar al espacio en cohetes habilitados para el turismo espacial.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## Landing Page
+En la página principal aparecerán imagenes de los principales planetas a los cuales es posible viajar. También se mostraran las distintas categorias de cohetes que ofrecen las compañias las cuales ofrecen los cohetes así como la posibilidad de viajar al espacio.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+En la parte superior izquierda encontraremos un menú el cual nos permitirá elegir entre INICIO COHETES COMPAÑIAS DESTINOS y en la parte derecha aparecerá en caso de no estar logueado con una cuenta las opciones de REGISTRARSE O ACCERDER, en caso de que SI que estemos logueados aparecera UN MENU DESPLEGABLE con las opciones MI PERFIL MIS BILLETES VIAJES RALIZADOS LOG OUT   
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## USUARIOS   
+Habrá varios tipos de usuarios, estarán los usuarios corrientes los cuales podrán visualizar el contenido de la página así como su información personal y viajes.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Estarán también los usuarios de las compaías los cuales tendrán las mismas posibilidadesd que los usuarios corrientes y se le añaden permisos para que puedan subir a la web los distintos viajes y destinos que ofrecen.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Por último está el usuario administrador que podrá controlar todo lo que aparece en la página.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## BOCETO
 
-### Premium Partners
+![image](https://user-images.githubusercontent.com/72375115/161306016-803d2bf8-4a44-4a81-bcfc-f2e6aa8e314c.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+## ENLACE A BOCETO EN FIGMA
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+https://www.figma.com/file/SYyFevlfwZVtmMF11owpQx/SPACE%3ANEO?node-id=0%3A1
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## COLORES DE REFERENCIA 
 
-## Security Vulnerabilities
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| TITULOS | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
+| FONDO 1 | ![#9262B6](https://via.placeholder.com/10/9262B6?text=+) #9262B6 |
+| FONDO 2 | ![#5F5F5F](https://via.placeholder.com/10/5F5F5F?text=+) #5F5F5F |
+| TEXTO 1 | ![#141414](https://via.placeholder.com/10/141414?text=+) #141414 |
+| TEXTO 2 | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+## TECNOLOGÍAS
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**Front-End:** HTML5, CSS3, JQUERY, JAVASCRIPT
+
+**Back-End:** LARAVEL
+
+## DESPLIEGUE
+**Servidor en la nube a utilizar:** AWS
+
+**Dominio:** Usaré un dominio .com
+
+**SGBD:** Alojaré la base de datos en un servidor aparte.
+
+
+## DIAGRAMA E/R
+![image](https://user-images.githubusercontent.com/72375115/161391412-2ff244c2-1c51-465f-aec6-16b382497ee4.png)
+## Authors
+
+- [@JMMJ0](https://github.com/JMMJ0)
+
+
+
