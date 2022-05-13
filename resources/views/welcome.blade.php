@@ -36,6 +36,7 @@
     <x-nav />
 
     <div class="bg1">
+        <video src="video\Landing2.mp4" autoplay="true" muted="true" loop="true"></video>
         <div class="msgs-diplayed1">
             <div class="buttons">
                 <div class="containerButton">
