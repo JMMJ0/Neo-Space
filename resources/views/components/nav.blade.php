@@ -15,8 +15,26 @@
                     <li><a href="cohete">Cohetes</a></li>
                     <li><a href="#compania">Compañias</a></li>
                     <li><a href="#destino">Destinos</a></li>
-                    <li><a href="{{ route('login') }}">Log In</a></li>
-                    <li><a href="{{ route('register') }}">Registrarse</a></li>
+                    @auth
+                        <li>
+                            <div class="dropDown">
+                                <a class="dropbtn" href="#">{{ Auth::user()->name }}</a>
+                                <div class="dropDown-content">
+                                    <a href="#">Mi Perfil</a>
+                                    <a href="#">Mis Viajes</a>
+                                    <form method="POST" action="{{ route('logout') }}">
+                                        @csrf
+                                        <a href="route('logout')" onclick="event.preventDefault();
+                                                                    this.closest('form').submit();">
+                                            {{ __('Log Out') }}</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    @else
+                        <li><a href="{{ route('login') }}">Log In</a></li>
+                        <li><a href="{{ route('register') }}">Registrarse</a></li>
+                    @endauth
                 </ul>
             </nav>
         </div>

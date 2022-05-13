@@ -1,5 +1,9 @@
 // NAVIGATION LOGO SCROLL TOP
 
+/* This is a jQuery function that is triggered when the logo is clicked. It prevents the default action
+of the logo, which is to link to the homepage. It then removes the class 'open' from the nav-toggle,
+which is the hamburger icon. It also removes the class 'collapse' from the menu-left, which is the
+navigation menu. Finally, it animates the scroll to the top of the page. */
 $('.logo').on('click', function(e) {
     e.preventDefault();
     $('.nav-toggle').removeClass('open');
@@ -22,6 +26,10 @@ $('.logo').on('click', function(e) {
   });
   
   // TOGGLE HAMBURGER & COLLAPSE NAV
+/* This is a jQuery function that is triggered when the hamburger icon is clicked. It toggles the class
+'open' on the hamburger icon, which changes the icon from a hamburger to an X. It also toggles the
+class 'collapse' on the menu-left, which is the navigation menu. This causes the menu to expand and
+collapse. */
   $('.nav-toggle').on('click', function() {
     $(this).toggleClass('open');
     $('.menu-left').toggleClass('collapse');
