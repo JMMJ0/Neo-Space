@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-*{
+* {
     padding: 0px;
     margin: 0px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 html {
     font-family: "Roboto", sans-serif;
@@ -12,92 +12,93 @@ html {
     font-weight: 300;
     line-height: 1.5;
     color: #444;
-  }
-.body{
+    background-color: black;
+}
+.body {
     background-color: black;
 }
 
 /* NAV CSS */
 .container {
     padding: 0px 15px 0px 15px;
-  }
-  @media (min-width: 0) {
+}
+@media (min-width: 0) {
     .container {
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .container:after {
-      content: " ";
-      display: block;
-      clear: both;
+        content: " ";
+        display: block;
+        clear: both;
     }
-  }
-  @media (min-width: 576px) {
+}
+@media (min-width: 576px) {
     .container {
-      max-width: 540px;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .container:after {
-      content: " ";
-      display: block;
-      clear: both;
+        content: " ";
+        display: block;
+        clear: both;
     }
-  }
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
     .container {
-      max-width: 720px;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .container:after {
-      content: " ";
-      display: block;
-      clear: both;
+        content: " ";
+        display: block;
+        clear: both;
     }
-  }
-  @media (min-width: 992px) {
+}
+@media (min-width: 992px) {
     .container {
-      max-width: 960px;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .container:after {
-      content: " ";
-      display: block;
-      clear: both;
+        content: " ";
+        display: block;
+        clear: both;
     }
-  }
-  @media (min-width: 1200px) {
+}
+@media (min-width: 1200px) {
     .container {
-      max-width: 1170px;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .container:after {
-      content: " ";
-      display: block;
-      clear: both;
+        content: " ";
+        display: block;
+        clear: both;
     }
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
-  }
-  a:hover,
-  a :focus {
+}
+a:hover,
+a :focus {
     color: rgb(255, 255, 255);
-  }
-  
-  .menu-left a {
+}
+
+.menu-left a {
     display: inline-block;
     position: relative;
     padding-bottom: 0px;
     transition: color 0.35s ease;
-  }
-  .menu-left a:before {
+}
+.menu-left a:before {
     content: "";
     display: block;
     position: absolute;
@@ -106,8 +107,8 @@ html {
     height: 2px;
     width: 0;
     transition: width 0s ease, background 0.35s ease;
-  }
-  .menu-left a:after {
+}
+.menu-left a:after {
     content: "";
     display: block;
     position: absolute;
@@ -117,19 +118,19 @@ html {
     width: 0;
     background: rgb(255, 255, 255);
     transition: width 0.35s ease;
-  }
-  .menu-left a:hover:before {
+}
+.menu-left a:hover:before {
     width: 100%;
     background: rgb(255, 255, 255);
     transition: width 0.35s ease;
-  }
-  .menu-left a:hover:after {
+}
+.menu-left a:hover:after {
     width: 100%;
     background: transparent;
     transition: all 0s ease;
-  }
-  
-  header {
+}
+
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -140,15 +141,16 @@ html {
     z-index: 3;
     will-change: transform;
     transition: background 0.3s,
-      -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+        -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
     transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
-      background 0.3s;
+        background 0.3s;
     transition: transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1),
-      background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
+        background 0.3s,
+        -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
     transform: translateY(0);
     -webkit-transform: translateY(0);
-  }
-  header nav .logo {
+}
+header nav .logo {
     float: left;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -157,51 +159,51 @@ html {
     line-height: inherit;
     font-weight: 500;
     color: black;
-  }
-  header nav .logo:after {
+}
+header nav .logo:after {
     content: "";
     display: table;
     clear: both;
-  }
-  header nav ul {
+}
+header nav ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
-  }
-  header nav ul li {
+}
+header nav ul li {
     float: none;
     margin-left: 0;
-  }
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
     header nav ul li {
-      float: left;
-      margin-left: 1rem;
+        float: left;
+        margin-left: 1rem;
     }
-  }
-  header nav ul li a {
+}
+header nav ul li a {
     display: block;
-  }
-  @media (min-width: 576px) {
+}
+@media (min-width: 576px) {
     header nav ul li a {
-      display: block;
-      padding: 0.425rem 0rem;
+        display: block;
+        padding: 0.425rem 0rem;
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     ul {
-      clear: both;
+        clear: both;
     }
     ul li {
-      padding: 0.5em 0;
+        padding: 0.5em 0;
     }
-  }
-  .hide-nav {
+}
+.hide-nav {
     transform: translateY(-120%);
     -webkit-transform: translateY(-120%);
-  }
-  
-  ul.menu-left {
+}
+
+ul.menu-left {
     display: block;
     max-height: 0;
     overflow: hidden;
@@ -211,24 +213,24 @@ html {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     z-index: 10;
-  }
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
     ul.menu-left {
-      display: block !important;
-      float: right;
-      max-height: none;
+        display: block !important;
+        float: right;
+        max-height: none;
     }
-  }
-  ul.menu-left:before {
+}
+ul.menu-left:before {
     content: "";
     display: table;
     clear: both;
-  }
-  ul.menu-left.collapse {
+}
+ul.menu-left.collapse {
     max-height: 15em !important;
-  }
-  
-  .nav-toggle {
+}
+
+.nav-toggle {
     display: block;
     border-radius: 5px;
     background-color: transparent;
@@ -237,23 +239,23 @@ html {
     width: 38px;
     cursor: pointer;
     padding: 8px 8px;
-  }
-  .nav-toggle.open span:first-child {
+}
+.nav-toggle.open span:first-child {
     transform: rotate(45deg) translate(4.4px, 4.4px);
-  }
-  .nav-toggle.open span:nth-child(2) {
+}
+.nav-toggle.open span:nth-child(2) {
     width: 0%;
     opacity: 0;
-  }
-  .nav-toggle.open span:last-child {
+}
+.nav-toggle.open span:last-child {
     transform: rotate(-45deg) translate(4.4px, -4.4px);
-  }
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
     .nav-toggle {
-      display: none;
+        display: none;
     }
-  }
-  .nav-toggle span {
+}
+.nav-toggle span {
     position: relative;
     display: block;
     height: 2px;
@@ -261,11 +263,11 @@ html {
     margin-top: 4px;
     background-color: #000;
     transition: all 0.25s;
-  }
-  
+}
+
 /* NAV CSS END */
 
-.first{
+.first {
     height: 100vh;
     width: 100%;
     background-image: url(/img/dragon_feature.jpg);
@@ -276,117 +278,176 @@ html {
     align-items: center;
     flex-direction: column;
     text-align: center;
- 
 }
-.title{
+.title {
     color: white;
     position: relative;
     margin-top: 300px;
 }
-.title>h1{
-    font-family: 'Anton';
+.title > h1 {
+    font-family: "Anton";
     text-transform: uppercase;
     font-size: 6em;
 }
-.title>h3{
-    font-family: 'Open Sans';
+.title > h3 {
+    font-family: "Open Sans";
     text-transform: uppercase;
-   
 }
-.dragon{
-  height: 100vh;
-  width: 100%;
-  background-image: url(/img/DragonTrunk_Render_Desktop.png);
-  background-size: cover; 
-  background-position: top center;
+.dragon {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/DragonTrunk_Render_Desktop.png);
+    background-size: cover;
+    background-position: top center;
 }
 
 /* CSS TABLA */
-
-
-
+.info {
+    margin-left: 20px;
+    display: block;
+    list-style: none;
+    top: 45%;
+    transform: translate(0, -50%);
+    position: relative;
+    left: 50px;
+    width: 50%;
+    max-width: 520px;
+    transition: opacity 0.2s linear;
+}
 .info h3 {
-  color: #fff;
-  position: relative;
-  font: 20px/32px D-DIN-Medium, Arial, Verdana, sans-serif;
-  text-transform: uppercase;
-  margin: auto auto 10px;
-  visibility: inherit;
-  opacity: 1;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+    color: #fff;
+    position: relative;
+    font: 20px/32px D-DIN-Medium, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin: auto auto 10px;
+    visibility: inherit;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .info h2 {
-  color: #fff;
-  margin: auto;
-  position: relative;
-  font: 46px/50px D-DIN-Bold, Arial, Verdana, sans-serif;
-  text-transform: uppercase;
-  max-width: 90%;
-  margin-left: 0;
-  font-size: 48px;
-  line-height: 48px;
-  visibility: inherit;
-  opacity: 1;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+    color: #fff;
+    margin: auto;
+    position: relative;
+    font: 46px/50px D-DIN-Bold, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    max-width: 90%;
+    margin-left: 0;
+    font-size: 48px;
+    line-height: 48px;
+    visibility: inherit;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
-.info {
-  margin-left: 20px;
-  display: block;
-  list-style: none;
-  top: 45%;
-  transform: translate(0, -50%);
-  position: relative;
-  left: 50px;
-  width: 50%;
-  max-width: 520px;
-  transition: opacity 0.2s linear;
-}
+
 .js-stagger {
-  -webkit-text-size-adjust: 100%;
-  font: 16px/26px D-DIN-Regular, Arial, Verdana, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #fff;
-  -webkit-font-smoothing: antialiased;
-  list-style: none;
-  text-align: left;
-  border-collapse: collapse;
-  border-spacing: 0;
+    -webkit-text-size-adjust: 100%;
+    font: 16px/26px D-DIN-Regular, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 table {
-  width: 100%;
-  margin-top: 30px;
-  display: table;
+    width: 100%;
+    margin-top: 30px;
+    display: table;
 }
 
 tr {
-  visibility: inherit;
-  opacity: 1;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+    visibility: inherit;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 table.data td:first-child {
-  font: 14px/18px D-DIN-Bold, Arial, Verdana, sans-serif;
-  text-align: left;
+    font: 14px/18px D-DIN-Bold, Arial, Verdana, sans-serif;
+    text-align: left;
 }
 span {
-  visibility: inherit;
-  font: 600 16px/18px D-DIN-Regular, Arial, Verdana, sans-serif;
-  text-align: right;
-  color: #868686;
+    visibility: inherit;
+    font: 600 16px/18px D-DIN-Regular, Arial, Verdana, sans-serif;
+    text-align: right;
+    color: #868686;
 }
 td {
-  visibility: inherit;
-  font: 600 16px/18px D-DIN-Regular, Arial, Verdana, sans-serif;
-  color: #fff;
-  padding: 20px 0;
-  border-bottom: 1pt solid rgba(255, 255, 255, 0.3);
-  text-align: right;
+    visibility: inherit;
+    font: 600 16px/18px D-DIN-Regular, Arial, Verdana, sans-serif;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 1pt solid rgba(255, 255, 255, 0.3);
+    text-align: right;
 }
 
-
-
-
-
-
 /* CSS TABLA END */
+.second .third {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.second {
+    background-image: url(/img/blueorigin_hls_landing_dec2020.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.description {
+    color: #fff;
+    max-width: 30%;
+    margin-top: 300px;
+    margin-left: 65%;
+    position: absolute;
+    align-self: flex-end;
+    font-family: "Open Sans";
+}
+.title2 {
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+.title2 h1 {
+    font-family: "Anton";
+    text-transform: uppercase;
+    font-size: 5em;
+}
+.title2 h3 {
+    font-family: "Open Sans";
+    text-transform: uppercase;
+}
+.title2 h4 {
+    font-family: "Open Sans";
+    max-width: 50%;
+    padding-top: 15px;
+}
+.third {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/blueorigin_bluemoon.jpg);
+    background-size: cover;
+}
+
+.fourth {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+video {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.footer {
+    background-color: #fff;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 6px solid rgb(255, 136, 0);
+}

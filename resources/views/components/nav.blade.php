@@ -14,7 +14,7 @@
                     <li><a href="/">Inicio</a></li>
                     <li><a href="cohete">Cohetes</a></li>
                     <li><a href="#compania">Compañias</a></li>
-                    <li><a href="#destino">Destinos</a></li>
+                    <li><a href="destinos">Destinos</a></li>
                     @auth
                         <li>
                             <div class="dropDown">

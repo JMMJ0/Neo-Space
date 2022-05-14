@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('/cohete','cohete');
+Route::view('/destinos','destinos');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
