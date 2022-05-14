@@ -6,7 +6,7 @@ SPACE NEO será una página web basada en la compra de viajes espaciales, concre
 En la página principal aparecerán imagenes de los principales planetas a los cuales es posible viajar. También se mostraran las distintas categorias de cohetes que ofrecen las compañias las cuales ofrecen los cohetes así como la posibilidad de viajar al espacio.
 
 
-En la parte superior izquierda encontraremos un menú el cual nos permitirá elegir entre INICIO COHETES COMPAÑIAS DESTINOS y en la parte derecha aparecerá en caso de no estar logueado con una cuenta las opciones de REGISTRARSE O ACCERDER, en caso de que SI que estemos logueados aparecera UN MENU DESPLEGABLE con las opciones MI PERFIL MIS BILLETES VIAJES RALIZADOS LOG OUT   
+En la parte superior izquierda encontraremos un menú el cual nos permitirá elegir entre INICIO COHETES COMPAÑIAS DESTINOS y en la parte derecha aparecerá en caso de no estar logueado con una cuenta las opciones de REGISTRARSE O ACCERDER, en caso de que SI que estemos logueados aparecera UN MENU DESPLEGABLE con las opciones MI PERFIL MIS BILLETES LOG OUT   
 
 
 ## USUARIOS   
