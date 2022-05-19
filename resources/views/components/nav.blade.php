@@ -13,7 +13,7 @@
                 <ul class="menu-left">
                     <li><a href="/">Inicio</a></li>
                     <li><a href="cohete">Cohetes</a></li>
-                    <li><a href="#compania">Compañias</a></li>
+                    <li><a href="companies">Compañias</a></li>
                     <li><a href="destinos">Destinos</a></li>
                     @auth
                         <li>
