@@ -19,6 +19,7 @@ Route::get('/', function () {
 Route::view('/cohete','cohete');
 Route::view('/destinos','destinos');
 Route::view('/companies','companies');
+Route::view('/profile','profile')->middleware(['auth'])->name('profile');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
