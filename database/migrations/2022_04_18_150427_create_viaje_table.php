@@ -15,10 +15,15 @@ return new class extends Migration
     {
         Schema::create('viaje', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre');
+            $table->time('hora', $precision = 4);
             $table->string('punto_salida');
-            $table->string('punto_destino');
+            $table->unsignedBigInteger('punto_destino');
+            $table->date('fecha');
             
+        });
+
+        Schema::table('viaje', function (Blueprint $table) {
+            $table->foreign('punto_destino')->references('id')->on('planeta')->onDelete('cascade');
         });
     }
 

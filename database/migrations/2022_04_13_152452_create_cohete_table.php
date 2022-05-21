@@ -16,9 +16,12 @@ return new class extends Migration
         Schema::create('cohete', function (Blueprint $table) {
             $table->id();
             $table->string('nombre');
-            $table->string('modelo');
-            $table->string('marca');
-            $table->string('descripcion');
+            $table->unsignedBigInteger('company');
+            $table->text('descripcion');
+
+        });
+        Schema::table('cohete', function (Blueprint $table) {
+            $table->foreign('company')->references('id')->on('compania')->onDelete('cascade');
         });
     }
 

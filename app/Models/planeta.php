@@ -11,7 +11,7 @@ class planeta extends Model
     public $timestamps = false; 
     use HasFactory;
 
-    public function rutas(){
-        return $this->belongsToMany('app/models/ruta','ruta_planeta', 'id_planeta', 'id_ruta');
+    public function viajes(){
+        return $this->hasMany('app/models/viaje');
     }
 }

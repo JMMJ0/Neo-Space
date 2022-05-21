@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\planeta;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -17,9 +18,10 @@ class viajeFactory extends Factory
     public function definition()
     {
         return [
-            'nombre'=> $this->faker->name(),
             'punto_salida'=> $this->faker->city(),
-            'punto_destino'=> $this->faker->city()
+            'punto_destino'=> $this->faker->randomElement(planeta::all())['id'],
+            'hora'=> $this->faker->time(),
+            'fecha'=> $this->faker->date()
         ];
     }
 }

@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\compania;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -18,8 +19,7 @@ class coheteFactory extends Factory
     {
         return [
             'nombre'=>$this->faker->name(),
-            'modelo'=>$this->faker->numberBetween($int = 0, $int2 = 100),
-            'marca'=> $this->faker->randomElement(['Space X','Discover Y']),
+            'company'=>$this->faker->randomElement(compania::all())['id'],
             'descripcion'=>$this->faker->realText($maxNbChars=100)
         ];
     }

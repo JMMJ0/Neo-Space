@@ -16,10 +16,8 @@ class compania extends Model
         return $this->belongsToMany('app/models/viaje','viaje_compania', 'id_compania', 'id_viaje');
     }
     public function cohetes(){
-        return $this->belongsToMany('app/models/cohete','compania_cohete', 'id_compania', 'id_cohete');
+        return $this->hasMany('app/models/cohete');
     }
-    public function rutas(){
-        return $this->belongsToMany('app/models/ruta','compania_ruta', 'id_compania', 'id_ruta');
-    }
+
 
 }

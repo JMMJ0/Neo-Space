@@ -19,4 +19,7 @@ class viaje extends Model
     public function companias(){
         return $this->belongsToMany('app/models/compania','viaje_compania', 'id_viaje', 'id_compania');
     }
+    public function destinos(){
+        return $this->belongsTo('app/models/planeta');
+    }
 }

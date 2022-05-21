@@ -13,6 +13,6 @@ class cohete extends Model
 
 
     public function companias(){
-        return $this->belongsToMany('app/models/compania','compania_cohete', 'id_cohete', 'id_compania');
+        return $this->belongsTo('app/models/compania');
     }
 }
