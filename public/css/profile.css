@@ -519,7 +519,7 @@ button {
 	letter-spacing: 1px;
 	margin: 10px 0;
 }
-.card-preview-orbit{
+.card-preview-EarthOrbit{
 	background-image: url(/img/earthMINI.png);
   background-size: cover;
   border-radius: 10px;
@@ -527,7 +527,7 @@ button {
 	padding: 30px;
 	width: 30%;
 }
-.card-preview-iss{
+.card-preview-ISS{
 	background-image: url(/img/issMINI.png);
   background-size: cover;
   border-radius: 10px;
@@ -536,7 +536,7 @@ button {
 	width: 30%;
 }
 
-.card-preview-moon{
+.card-preview-Moon{
 	background-image: url(/img/moonMINI.png);
   background-size: cover;
   border-radius: 10px;
@@ -544,7 +544,7 @@ button {
 	padding: 30px;
 	width: 30%;
 }
-.card-preview-mars{
+.card-preview-Mars{
 	background-image: url(/img/marsMIN.png);
   background-size: cover;
   border-radius: 10px;

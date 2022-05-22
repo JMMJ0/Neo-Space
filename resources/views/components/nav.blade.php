@@ -21,7 +21,7 @@
                                 <a class="dropbtn" href="#">{{ Auth::user()->name }}</a>
                                 <div class="dropDown-content">
                                     <a href="profile">Mi Perfil</a>
-                                    <a href="#">Mis Viajes</a>
+                                    <a href="misViajes">Mis Viajes</a>
                                     <form method="POST" action="{{ route('logout') }}">
                                         @csrf
                                         <a href="route('logout')" onclick="event.preventDefault();

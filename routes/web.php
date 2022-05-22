@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ViajeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +21,12 @@ Route::get('/', function () {
 Route::view('/cohete','cohete');
 Route::view('/destinos','destinos');
 Route::view('/companies','companies');
-Route::view('/profile','profile')->middleware(['auth'])->name('profile');
+
+// Route::view('/profile','profile')->middleware(['auth'])->name('profile');
+Route::get('/profile', [UserController::class, 'viajes_usuario'])->middleware(['auth'])->name('profile');
+Route::get('/edit_profile', [UserController::class, 'viajes_usuario_editar'])->middleware(['auth'])->name('edit_profile');
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -13,6 +13,6 @@ class cohete extends Model
 
 
     public function companias(){
-        return $this->belongsTo('app/models/compania');
+        return $this->belongsTo('App\Model\compania')->get();
     }
 }

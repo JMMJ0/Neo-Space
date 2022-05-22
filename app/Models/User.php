@@ -13,6 +13,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 
 
+
 class User extends Authenticatable
 {
     public $table="users";
@@ -25,7 +26,8 @@ class User extends Authenticatable
     use TwoFactorAuthenticatable;
 
     public function viajes(){
-        return $this->belongsToMany('app/models/viaje','usuario_viajes', 'id_usuario', 'id_viaje');
+        return $this->belongsToMany('App\Models\viaje','usuario_viaje', 'id_usuario', 'id_viaje')->get();
+       
     }
 
 

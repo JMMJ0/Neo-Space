@@ -14,12 +14,12 @@ class viaje extends Model
     use HasFactory;
 
     public function usuarios(){
-        return $this->belongsToMany('app/models/Users','usuario_viajes', 'id_viaje', 'id_usuario');
+        return $this->belongsToMany('App\Models\Users','usuario_viaje', 'id_viaje', 'id_usuario')->get();
     }
     public function companias(){
-        return $this->belongsToMany('app/models/compania','viaje_compania', 'id_viaje', 'id_compania');
+        return $this->belongsToMany('App\Models\compania','viaje_compania', 'id_viaje', 'id_compania')->get();
     }
     public function destinos(){
-        return $this->belongsTo('app/models/planeta');
+        return $this->belongsTo('App\Models\planeta')->get();
     }
 }

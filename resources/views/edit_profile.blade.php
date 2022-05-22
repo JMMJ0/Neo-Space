@@ -20,54 +20,55 @@
             </div>
             <div class="txt">
                 <h4>{{ Auth::user()->name }} {{ Auth::user()->surname }}</h4>
-                <p>Numero de viajes realizados:  </p>
+                <p>Numero de viajes realizados: </p>
                 <p>{{ Auth::user()->ciudad_usuario }}</p>
             </div>
         </div>
 
         <div class="info-user">
-            <div class="row">
-                <div>
-                    <h3>Name</h3>
+            <form action="" method="post">
+                <div class="row">
+                    <div>
+                        <h3>Name</h3>
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" value={{ Auth::user()->name }}>
+                    </div>
                 </div>
-                <div>
-                    <h4>{{ Auth::user()->name }}</h4>
+                <div class="row">
+                    <div>
+                        <h3>SurName</h3>
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" value={{ Auth::user()->surname }}>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div>
-                    <h3>Surname</h3>
+                <div class="row">
+                    <div>
+                        <h3>email</h3>
+                    </div>
+                    <div>
+                        <input type="email" class="form-control" value={{ Auth::user()->email }}>
+                    </div>
                 </div>
-                <div>
-                    <h4>{{ Auth::user()->surname }}</h4>
+                <div class="row">
+                    <div>
+                        <h3>Ciudad</h3>
+                    </div>
+                    <div>
+                        <input type="text" class="form-control" value={{ Auth::user()->ciudad_usuario }}>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div>
-                    <h3>Email</h3>
+                <div class="row">
+                    <div>
+                        <h3>phone number</h3>
+                    </div>
+                    <div>
+                        <input type="number" class="form-control" value={{ Auth::user()->phone_number }}>
+                    </div>
                 </div>
-                <div>
-                    <h4>{{ Auth::user()->email }}</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <h3>City</h3>
-                </div>
-                <div>
-                    <h4>{{ Auth::user()->ciudad_usuario }}</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <h3>Phone number</h3>
-                </div>
-                <div>
-                    <h4>{{ Auth::user()->phone_number }}</h4>
-                </div>
-            </div>
-
-            <button><a href="edit_profile">EDITAR</a></button>
+                <button><a href="profile">SAVE</a></button>
+            </form>
         </div>
 
         <div class="viajes">
@@ -78,56 +79,21 @@
 
                     <div class="card-preview-{{ $card->punto_destino }}">
                         <h6>{{ $card->fecha }}</h6>
-                        <h2>{{ $card->punto_destino}}</h2>
+                        <h2>{{ $card->punto_destino }}</h2>
                     </div>
                     <div class="card-info">
-                        <h6>{{$compania[$loop->index]}}</h6>
-                        <h2>{{ $card->punto_salida}} 
+                        <h6>{{ $compania[$loop->index] }}</h6>
+                        <h2>{{ $card->punto_salida }}
                             @php
-                             echo substr( $card->hora,0,5)
+                                echo substr($card->hora, 0, 5);
                             @endphp
-                           
+
                         </h2>
                         <a class="link" href="#">Ver todos los viajes</a>
                     </div>
-
-
-
                 </div>
             @endforeach
-            {{-- <div class="card">
 
-
-                <div class="card-preview-iss">
-                    <h6>FECHA</h6>
-                    <h2>DESTINO</h2>
-                </div>
-                <div class="card-info">
-                    <h6>COMPAÑIA</h6>
-                    <h2>LUGAR DE SALIDA Y HORA</h2>
-                    <a class="link" href="#">Ver todos los viajes</a>
-                </div>
-
-
-
-            </div>
-
-
-            <div class="card">
-
-
-                <div class="card-preview-moon">
-                    <h6>FECHA</h6>
-                    <h2>DESTINO</h2>
-                </div>
-                <div class="card-info">
-                    <h6>COMPAÑIA</h6>
-                    <h2>LUGAR DE SALIDA Y HORA</h2>
-                    <a class="link" href="#">Ver todos los viajes</a>
-                </div>
-
-
-            </div> --}}
         </div>
 
 
