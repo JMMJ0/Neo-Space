@@ -8,10 +8,18 @@ use Illuminate\Http\Request;
 class ViajeController extends Controller
 {
     
-    public function compania_nombre(){
+    public function viaje_Earth(){
         
 
+    }
 
+    public function viaje_ISS(){
+
+    }
+    public function viaje_Moon(){
+
+    }
+    public function viaje_Mars(){
 
     }
 

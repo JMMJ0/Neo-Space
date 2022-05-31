@@ -26,15 +26,17 @@ $('.logo').on('click', function(e) {
   });
   
   // TOGGLE HAMBURGER & COLLAPSE NAV
+
 /* This is a jQuery function that is triggered when the hamburger icon is clicked. It toggles the class
-'open' on the hamburger icon, which changes the icon from a hamburger to an X. It also toggles the
-class 'collapse' on the menu-left, which is the navigation menu. This causes the menu to expand and
-collapse. */
+'open' on the hamburger icon. It also toggles the class 'collapse' on the navigation menu. */
   $('.nav-toggle').on('click', function() {
     $(this).toggleClass('open');
     $('.menu-left').toggleClass('collapse');
   });
   // REMOVE X & COLLAPSE NAV ON ON CLICK
+/* This is a jQuery function that is triggered when a link in the navigation menu is clicked. It
+removes the class 'open' from the hamburger icon. It also removes the class 'collapse' from the
+navigation menu. */
   $('.menu-left a').on('click', function() {
     $('.nav-toggle').removeClass('open');
     $('.menu-left').removeClass('collapse');

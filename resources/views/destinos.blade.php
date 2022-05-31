@@ -17,7 +17,7 @@
           <div class="containerButton">
             <h4 class="h4txt">MISSION</h4>
             <h2 class="h2txt">Orbita de la Tierra</h2>
-            <a href="#" class="btn effect01" target="_blank">
+            <a href="viajesTierra" class="btn effect01" target="_blank">
               <span>Reservar</span></a
             >
           </div>
@@ -33,7 +33,7 @@
               <div class="containerButton">
                 <h4 class="h4txt">MISSION</h4>
                 <h2 class="h2txt">Estación Espacial Internacional</h2>
-                <a href="#" class="btn effect01" target="_blank">
+                <a href="viajes" class="btn effect01" target="_blank">
                   <span>Reservar</span></a
                 >
               </div>
@@ -48,7 +48,7 @@
               <div class="containerButton">
                 <h4 class="h4txt">MISSION</h4>
                 <h2 class="h2txt">MOON</h2>
-                <a href="#" class="btn effect01" target="_blank">
+                <a href="viajes" class="btn effect01" target="_blank">
                   <span>Reservar</span></a
                 >
               </div>
@@ -64,7 +64,7 @@
               <div class="containerButton">
                 <h4 class="h4txt">MISSION</h4>
                 <h2 class="h2txt">Marte</h2>
-                <a href="#" class="btn effect01" target="_blank">
+                <a href="viajes" class="btn effect01" target="_blank">
                   <span>Reservar</span></a
                 >
               </div>

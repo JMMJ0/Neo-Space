@@ -21,7 +21,7 @@ Route::get('/', function () {
 Route::view('/cohete','cohete');
 Route::view('/destinos','destinos');
 Route::view('/companies','companies');
-
+Route::view('/viajesTierra','viajesTierra');
 // Route::view('/profile','profile')->middleware(['auth'])->name('profile');
 Route::get('/profile', [UserController::class, 'viajes_usuario'])->middleware(['auth'])->name('profile');
 Route::get('/edit_profile', [UserController::class, 'viajes_usuario_editar'])->middleware(['auth'])->name('edit_profile');

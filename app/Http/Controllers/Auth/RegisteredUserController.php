@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
+use Illuminate\Support\Str;
 
 class RegisteredUserController extends Controller
 {
@@ -37,6 +38,9 @@ class RegisteredUserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'surname' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'remember_token' =>['nullable','string', 'max:10', 'unique:users'],
+            'phone_number' =>['nullable','string', 'max:15'],
+            'ciudad_usuario'=> ['nullable', 'string', 'max:255'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
 
@@ -44,6 +48,9 @@ class RegisteredUserController extends Controller
             'name' => $request->name,
             'surname' => $request->surname,
             'email' => $request->email,
+            'remember_token' => Str::random(10),
+            'phone_number' => $request->phone_number,
+            'ciudad_usuario' => $request->ciudad_usuario,
             'password' => Hash::make($request->password),
         ]);
 
