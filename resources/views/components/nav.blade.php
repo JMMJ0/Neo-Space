@@ -23,7 +23,7 @@
                                     <a href="{{ route('Users.profile') }}">Mi Perfil</a>
                                     <a href="{{route('Users.MisViajes')}}">Mis Viajes</a>
                                     @if (Auth::user()->hasRole('admin'))
-                                        <a href="#">Administrar</a>
+                                        <a href="{{route('Admin.admin')}}">Administrar</a>
                                     @endif
                                     <form method="POST" action="{{ route('logout') }}">
                                         @csrf

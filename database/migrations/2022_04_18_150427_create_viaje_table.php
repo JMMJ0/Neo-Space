@@ -19,11 +19,15 @@ return new class extends Migration
             $table->string('punto_salida');
             $table->unsignedBigInteger('punto_destino');
             $table->date('fecha');
+            $table->unsignedBigInteger('compania');
             
         });
 
         Schema::table('viaje', function (Blueprint $table) {
             $table->foreign('punto_destino')->references('id')->on('planeta')->onDelete('cascade');
+        });
+        Schema::table('viaje', function (Blueprint $table) {
+            $table->foreign('compania')->references('id')->on('compania')->onDelete('cascade');
         });
     }
 

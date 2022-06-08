@@ -8,8 +8,69 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use App\Models\planeta;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Validation\Rules;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 
 class UserController extends Controller {
+
+    public function listar_usuarios() {
+        $user = User::all();
+
+        return view( '/Admin/ListarUsuarios', [
+            'user'=> $user,
+
+        ] );
+    }
+    public function editar_usuario($id) {
+        $user = User::find($id);
+
+        return view( '/Admin/EditarUsuarios', [
+            'user'=> $user,
+
+        ] );
+    }
+    public function admin_update_user( Request $request, $id ) {
+        $user = User::find($id);
+        $user->name = $request->name;
+        $user->surname = $request->surname;
+        $user->email = $request->email;
+        $user->phone_number = $request->phone_number;
+        $user->ciudad_usuario = $request->ciudad_usuario;
+
+        $user->save();
+
+        return redirect()->action( [ UserController::class, 'listar_usuarios' ] );
+
+    }
+
+    public function admin_create_user( Request $request ) {
+
+        $user = new User;
+        $user->name = $request->name;
+        $user->surname = $request->surname;
+        $user->email = $request->email;
+        $user->phone_number = $request->phone_number;
+        $user->ciudad_usuario = $request->ciudad_usuario;
+        $user->password = Hash::make( $request->password );
+        $user->assignRole( $request->role );
+
+        $user->save();
+        
+        event( new Registered( $user ) );
+        
+        return redirect()->action( [ UserController::class, 'listar_usuarios' ] );
+
+    }
+
+    public function admin_delete_user($id) {
+        $user = User::find($id);
+        
+        $user->delete();
+
+        return redirect()->action( [ UserController::class, 'listar_usuarios' ] );
+    }
 
     public function update( Request $request ) {
 
@@ -104,6 +165,13 @@ class UserController extends Controller {
             'numviajes' => $numviajes
 
         ] );
+    }
+
+    public function reservar_viaje(){
+
+        $user =  Auth::User()->id;
+        $user->viajes()->attach($viaje->id);
+
     }
 
 }

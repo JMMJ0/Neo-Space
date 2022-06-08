@@ -13,17 +13,16 @@
 
     <x-nav />
     <div class="estilo">
-        <form action="{{ route('Admin.ActualizarUsuario', $user->id) }}" method="POST">
+        <form action="{{ route('Admin.NuevoUsuario') }}" method="POST">
             @csrf
             {{ method_field('put') }}
-
-            <h2>Editar Usuario</h2>
+            <h2>Crear Usuario</h2>
             <div class="row">
                 <div class="col-25">
                     <label for="name">Introduce el nombre</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="name" name="name" value={{ $user->name }}>
+                    <input type="text" id="name" name="name" placeholder="Name..">
                 </div>
             </div>
             <div class="row">
@@ -31,7 +30,7 @@
                     <label for="surname">Introduce el apellido</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="surname" name="surname" value={{ $user->surname }}>
+                    <input type="text" id="surname" name="surname" placeholder="Last name..">
                 </div>
             </div>
 
@@ -40,7 +39,7 @@
                     <label for="email">Introduce el email</label>
                 </div>
                 <div class="col-75">
-                    <input type="email" id="email" name="email" value={{ $user->email }}>
+                    <input type="email" id="email" name="email" placeholder="Email..">
                 </div>
             </div>
             <div class="row">
@@ -48,7 +47,7 @@
                     <label for="ciudad_usuario">Introduce la city</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="ciudad_usuario" name="ciudad_usuario" value={{ $user->ciudad_usuario }}>
+                    <input type="text" id="ciudad_usuario" name="ciudad_usuario" placeholder="City..">
                 </div>
             </div>
             <div class="row">
@@ -56,13 +55,13 @@
                     <label for="phone_number">Phone</label>
                 </div>
                 <div class="col-75">
-                    <input type="text" id="phone_number" name="phone_number" value={{ $user->phone_number }}>
+                    <input type="text" id="phone_number" name="phone_number" placeholder="Phone number..">
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-25">
-                    <label for="role">Elige role del usuario</label>
+                    <label for="role">role</label>
                 </div>
                 <div class="col-75">
                     <select id="role" name="role">
@@ -77,20 +76,17 @@
                     <label for="password">Introduce la contrasenia</label>
                 </div>
                 <div class="col-75">
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" placeholder="Password..">
                 </div>
             </div>
 
             <br>
             <div class="row">
-                <input type="submit" value="Editar">
+                <input type="submit" value="Crear">
             </div>
-
 
         </form>
     </div>
-
-
 </body>
 
 </html>

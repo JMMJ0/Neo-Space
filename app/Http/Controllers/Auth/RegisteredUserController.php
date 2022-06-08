@@ -45,7 +45,7 @@ class RegisteredUserController extends Controller {
 
         $user = User::create( [
             'name' => $request->name,
-            'surname' => $request->surname,
+            'surname' => $request->surname, 
             'email' => $request->email,
             'remember_token' => Str::random( 10 ),
             'phone_number' => $request->phone_number,

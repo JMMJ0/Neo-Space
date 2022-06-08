@@ -13,7 +13,7 @@ class compania extends Model
 
 
     public function viajes(){
-        return $this->belongsToMany('App\Models\viaje','viaje_compania', 'id_compania', 'id_viaje')->get();
+        return $this->belongsToMany('App\Models\viaje','viaje_compania', 'id_compania', 'id_viaje')->withPivot('id_viaje','id_compania');
     }
     public function cohetes(){
         return $this->hasMany('App\Models\cohete')->get();

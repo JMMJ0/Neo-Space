@@ -17,7 +17,7 @@ class viaje extends Model
         return $this->belongsToMany('App\Models\Users','usuario_viaje', 'id_viaje', 'id_usuario')->get();
     }
     public function companias(){
-        return $this->belongsToMany('App\Models\compania','viaje_compania', 'id_viaje', 'id_compania')->get();
+        return $this->belongsToMany('App\Models\compania','viaje_compania', 'id_viaje', 'id_compania')->withPivot('id_viaje','id_compania');
     }
     public function destinos(){
         return $this->belongsTo('App\Models\planeta')->get();
