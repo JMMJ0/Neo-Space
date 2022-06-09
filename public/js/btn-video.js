@@ -13,7 +13,7 @@ the controls will be shown, and the text will fade out. */
 playVG.addEventListener("click", function (e) {
     theVideo.play();
     theVideo.controls = true;
-    theTxt.style.opacity = "1";
+    theTxt.style.opacity = "0";
     theTxt.style.transition = "all .5s";
     // the.style.display = "none";
 });

@@ -32,7 +32,7 @@ Route::view('/companies','companies');
 
 
 // Route::view('/profile','profile')->middleware(['auth'])->name('profile');
-Route::any('/Users/profile', [UserController::class, 'viajes_usuario'])->middleware(['auth'])->name('Users.profile');
+Route::get('/Users/profile', [UserController::class, 'viajes_usuario'])->middleware(['auth'])->name('Users.profile');
 Route::any('/Users/edit_profile', [UserController::class, 'viajes_usuario_editar'])->middleware(['auth'])->name('Users.edit_profile');
 // Route::post('/profile', [UpdateUserProfileInformation::class, 'update'])->middleware(['auth'])->name('save_profile');
 Route::put('/Users/actualizar-usuario', [UserController::class, 'update'])->name('Users.actualizar-usuario');
@@ -41,7 +41,7 @@ Route::get('/Users/MisViajes', [UserController::class, 'viajes_usuario_listado']
 
 
 Route::get('/Viajes/viajesTierra', [ViajeController::class, 'viaje_Earth'])->name('Viajes.viajesTierra');
-Route::put('/Viajes/viajesTierra', [UserController::class, 'reservar_viaje'])->name('reservarViaje');
+Route::get('/Viajes/reservarTierra/{id}', [UserController::class, 'reservar_viaje'])->name('reservarViaje');
 
 Route::get('/Viajes/viajesISS', [ViajeController::class, 'viaje_ISS'])->name('Viajes.viajesISS');
 Route::get('/Viajes/viajesMoon', [ViajeController::class, 'viaje_Moon'])->name('Viajes.viajesMoon');

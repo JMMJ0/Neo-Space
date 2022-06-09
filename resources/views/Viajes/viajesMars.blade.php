@@ -23,14 +23,19 @@
                     <h2>{{ $planeta }}</h2>
                 </div>
                 <div class="card-info">
-                    <h6>compania</h6>
+                    <h6>{{$card->compania}}</h6>
                     <h2>{{ $card->punto_salida }} |
                         @php
                             echo substr($card->hora, 0, 5);
                         @endphp
 
                     </h2>
-                    <a class="link" href="#">Reservar</a>
+                    <form action="{{route('reservarViaje')}}" method="POST">
+
+                        @csrf
+                        {{ method_field('put') }}
+                        <input class="link" type="submit" value="Reservar">
+                    </form>
                 </div>
             </div>
         @endforeach

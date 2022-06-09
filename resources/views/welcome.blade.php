@@ -38,11 +38,11 @@
     <div class="bg1">
         <video src="video\Landing2.mp4" autoplay="true" muted="true" loop="true"></video>
         <div class="msgs-diplayed1">
+            <h4 class="h4txt">Descubre Nuestro Nuevo Cohete</h4>
+            <h2 class="h2txt">Virgin Galactic ROCKET</h2>
             <div class="buttons">
                 <div class="containerButton">
-                    <h4 class="h4txt">NEW HAWK Q7</h4>
-                    <h2 class="h2txt">MISSION QUEST 21</h2>
-                    <a href="#" class="btn effect01" target="_blank">
+                    <a href="{{ url('cohete') }}" class="btn effect01" >
                         <span>Reservar</span></a>
                 </div>
             </div>
@@ -50,11 +50,12 @@
     </div>
     <div class="bg2">
         <div class="msgs-diplayed1">
+            <h4 class="h4txt">Atrévete </h4>
+            <h2 class="h2txt">Descubre Nuestras Compañias</h2>
             <div class="buttons">
                 <div class="containerButton">
-                    <h4 class="h4txt">NEW HAWK Q7</h4>
-                    <h2 class="h2txt">MISSION QUEST 21</h2>
-                    <a href="#" class="btn effect01" target="_blank">
+
+                    <a href="{{ url('companies') }}" class="btn effect01" >
                         <span>Saber más</span></a>
                 </div>
             </div>
@@ -67,18 +68,14 @@
                 <div class="thr"></div>
                 <div class="thr2">
                     <h1>EXPLORA</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime provident qui corrupti
-                        doloremque sapiente
-                        quae voluptatum et consectetur autem voluptates accusamus iure, quidem veniam, voluptatibus
-                        tenetur aperiam
-                        est iste. Sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure assumenda
-                        molestias,
-                        rem ipsum laboriosam doloremque! Natus consectetur vero soluta, ipsam incidunt optio, inventore
-                        aut rerum
-                        blanditiis beatae nihil tenetur!</p>
+                    <p>Descubre nuevos horizontes y lánzate al espacio con los diferentes viajes, ofrecidos por las
+                        compañías mas pioneras en el sector que te llevaran a destinos nunca antes imaginados haciendo
+                        así de esta experecia única en la vida. Visita la icónica Luna donde el ser humano viajo por
+                        primera vez, revive la experiencia vivida por los astronautas del momento en su primera llegada
+                        a este satélite</p>
                     <div class="buttons">
                         <div class="containerButton">
-                            <a href="#" class="btn effect01" target="_blank">
+                            <a href="{{ url('destinos') }}" class="btn effect01">
                                 <span>Saber más</span></a>
                         </div>
                     </div>
@@ -91,7 +88,7 @@
                 {{-- <h1>The Beach</h1> --}}
                 <img src="/img/viaje1.png" alt="viaje1" />
                 <figcaption>
-                    <h3>More Info</h3>
+                    <h3>Saber Más</h3>
                     <p>
                         Pellentesque habitant morbi tristique senectus et netus et malesuada
                         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
@@ -99,14 +96,13 @@
                         egestas semper. Aenean ultricies mi vitae est. Mauris placerat
                         eleifend leo.
                     </p>
-                    <button>More Info</button>
                 </figcaption>
             </figure>
             <figure class="image-block">
                 {{-- <h1>The Beach</h1> --}}
                 <img src="/img/viaje2.png" alt="viaje2" />
                 <figcaption>
-                    <h3>More Info</h3>
+                    <h3>Saber Más</h3>
                     <p>
                         Pellentesque habitant morbi tristique senectus et netus et malesuada
                         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
@@ -114,14 +110,13 @@
                         egestas semper. Aenean ultricies mi vitae est. Mauris placerat
                         eleifend leo.
                     </p>
-                    <button>More Info</button>
                 </figcaption>
             </figure>
             <figure class="image-block">
                 {{-- <h1>The Beach</h1> --}}
                 <img src="/img/viaje3.png" alt="viaje3" />
                 <figcaption>
-                    <h3>More Info</h3>
+                    <h3>Saber Más</h3>
                     <p>
                         Pellentesque habitant morbi tristique senectus et netus et malesuada
                         fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
@@ -129,7 +124,6 @@
                         egestas semper. Aenean ultricies mi vitae est. Mauris placerat
                         eleifend leo.
                     </p>
-                    <button>More Info</button>
                 </figcaption>
             </figure>
         </div>
@@ -160,7 +154,7 @@
                 </p>
             </div>
         </div>
-        <x-footer/>
+        <x-footer />
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>

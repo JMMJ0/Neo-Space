@@ -23,7 +23,7 @@
                     <h2>{{ $card->punto_destino }}</h2>
                 </div>
                 <div class="card-info">
-                    <h6>compania</h6>
+                    <h6>{{$card->compania}}</h6>
                     <h2>{{ $card->punto_salida }} |
                         @php
                             echo substr($card->hora, 0, 5);

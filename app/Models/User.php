@@ -28,10 +28,9 @@ class User extends Authenticatable
     use HasRoles;
 
     public function viajes(){
-        return $this->belongsToMany('App\Models\viaje','usuario_viaje', 'id_usuario', 'id_viaje')->get();
+        return $this->belongsToMany('App\Models\viaje','usuario_viaje', 'id_usuario', 'id_viaje');
        
     }
-
 
 
 
