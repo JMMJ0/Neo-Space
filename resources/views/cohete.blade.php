@@ -26,6 +26,7 @@
         </div>
     </div>
     <div class="dragon">
+        <div class="relleno"></div>
         <div class="info">
             <h3>DRAGON</h3>
             <h2>OVERVIEW</h2>

@@ -182,7 +182,7 @@ class UserController extends Controller {
         $user = User::findorfail( Auth::User()->id );
         $user->viajes()->attach( $id );
 
-        return redirect()->action( [ UserController::class, 'viajes_usuario' ] );
+        return redirect()->action( [ UserController::class, 'viajes_usuario_listado' ] );
     }
 
 }

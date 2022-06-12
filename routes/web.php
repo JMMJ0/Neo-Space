@@ -41,11 +41,11 @@ Route::get('/Users/MisViajes', [UserController::class, 'viajes_usuario_listado']
 
 
 Route::get('/Viajes/viajesTierra', [ViajeController::class, 'viaje_Earth'])->name('Viajes.viajesTierra');
-Route::get('/Viajes/reservarTierra/{id}', [UserController::class, 'reservar_viaje'])->name('reservarViaje');
-
 Route::get('/Viajes/viajesISS', [ViajeController::class, 'viaje_ISS'])->name('Viajes.viajesISS');
 Route::get('/Viajes/viajesMoon', [ViajeController::class, 'viaje_Moon'])->name('Viajes.viajesMoon');
 Route::get('/Viajes/viajesMars', [ViajeController::class, 'viaje_Mars'])->name('Viajes.viajesMars');
+
+Route::get('/Viajes/reservarViaje/{id}', [UserController::class, 'reservar_viaje'])->middleware(['auth'])->name('reservarViaje');
 
 
 

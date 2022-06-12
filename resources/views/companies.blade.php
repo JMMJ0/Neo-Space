@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <x-nav />
-
+    
+<x-nav/>
     <div class="one">
 
         <div class="inf">
@@ -20,14 +20,21 @@
                 company capable of returning a spacecraft from low-Earth orbit, and in 2012 our Dragon spacecraft became
                 the first commercial spacecraft to deliver cargo to and from the International Space Station. And in
                 2020, SpaceX became the first private company to take humans there as well</h3>
-            <div><img src="svg\spaceXLogo.svg" alt="Space X" /></div>
         </div>
     </div>
 
 
-    <div  id="two" class="two">
-        <iframe id="BO" width="560" height="315" src="https://www.youtube.com/embed/1YOL89kY8Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <button id="cierra" class="noselect"><span class='text'>Close</span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg></span></button>
+    <div id="two" class="two">
+        <iframe id="BO" width="560" height="315" src="https://www.youtube.com/embed/1YOL89kY8Og"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <button id="cierra" class="noselect"><span class='text'>Close</span><span class="icon"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
+                </svg></span>
+        </button>
         <div class="inf">
             <h1>ABOUT BLUE ORIGIN</h1>
             <h3>We're committed to building a road to space so our children can build the future</h3>
@@ -37,12 +44,12 @@
                     <button id="playBO">&#9658;</button>
                 </div>
             </div>
-            
+
         </div>
     </div>
-    
+
     <div class="three">
-        <video src="video/vgBG.mp4" poster="img/coverVG.jpeg" id="myvideo" ></video>
+        <video src="video/vgBG.mp4" poster="img/coverVG.jpeg" id="myvideo"></video>
         <div class="txt-cont">
             <div class="thevideo">
                 <div id="inf2" class="inf">

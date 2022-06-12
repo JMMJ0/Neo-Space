@@ -247,7 +247,7 @@ ul.menu-left:before {
     clear: both;
 }
 ul.menu-left.collapse {
-    max-height: 21em !important;
+    max-height: 24em !important;
 }
 
 .nav-toggle {

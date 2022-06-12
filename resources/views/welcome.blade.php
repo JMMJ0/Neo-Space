@@ -42,7 +42,7 @@
             <h2 class="h2txt">Virgin Galactic ROCKET</h2>
             <div class="buttons">
                 <div class="containerButton">
-                    <a href="{{ url('cohete') }}" class="btn effect01" >
+                    <a href="{{ url('cohete') }}" class="btn effect01">
                         <span>Reservar</span></a>
                 </div>
             </div>
@@ -55,7 +55,7 @@
             <div class="buttons">
                 <div class="containerButton">
 
-                    <a href="{{ url('companies') }}" class="btn effect01" >
+                    <a href="{{ url('companies') }}" class="btn effect01">
                         <span>Saber más</span></a>
                 </div>
             </div>
@@ -85,8 +85,8 @@
         </div>
         <div class="bg4">
             <figure class="image-block">
-                {{-- <h1>The Beach</h1> --}}
-                <img src="/img/viaje1.png" alt="viaje1" />
+
+                <img src="/img/SpaceSuit.png" alt="SpaceSuit" />
                 <figcaption>
                     <h3>Saber Más</h3>
                     <p>
@@ -99,7 +99,7 @@
                 </figcaption>
             </figure>
             <figure class="image-block">
-                {{-- <h1>The Beach</h1> --}}
+
                 <img src="/img/viaje2.png" alt="viaje2" />
                 <figcaption>
                     <h3>Saber Más</h3>
@@ -113,7 +113,7 @@
                 </figcaption>
             </figure>
             <figure class="image-block">
-                {{-- <h1>The Beach</h1> --}}
+
                 <img src="/img/viaje3.png" alt="viaje3" />
                 <figcaption>
                     <h3>Saber Más</h3>
@@ -134,23 +134,23 @@
                 <h1>FAQS</h1>
                 <h2>¿CUÁNDO ES EL PRÓXIMO VIAJE?</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-                    eius neque provident dolorem autem, et assumenda pariatur laudantium
-                    voluptate, vero voluptatum delectus expedita deleniti reiciendis culpa
-                    necessitatibus, totam architecto quas!
+                    Los viajes son organizados por las distintas compañias con las que trabajamos, por lo que siempre
+                    habrá viajes publicados en la nuestro apartado de destinos.
                 </p>
                 <h2>¿QUIÉN PILOTA EL COHETE?</h2>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
-                    facere ex optio repudiandae ullam veritatis eaque nam illo iure, id
-                    fuga dolor quia fugit, debitis excepturi adipisci harum est
-                    architecto.
+                    Nuestros cohetes son pilotados por astronautas profesionales con muchos viajes a sus espaldas por lo
+                    que podrá disfrutar del trayecto sin preocupaciones, desde SpaceNeo le recomendamos aventurarse
+                    romper los límites y aventurarse en uno de nuestros increibles viajes.
                 </p>
                 <h2>¿CUÁNTO DURA EL VIAJE?</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta
-                    sed officia aliquid porro similique sapiente doloremque sunt dolore et
-                    assumenda beatae ad, voluptas facere odio, commodi vero, non debitis!
+                    La duración del viaje depende del destino elegido. <br>Nuestro viaje alrededor de la órbita de la
+                    Tierra dura unos 130 minutos.<br> El viaje a la Estación Espacial Internacinal tiene una duración de
+                    3 horas. <br> El viaje a la Luna dura unas 132 horas lo que equivale a 5.5 días.<br> El viaje a
+                    Marte es para los aventureros más intrépidos los cuales recibirán una seria preparación previa al
+                    viaje ya que estamos hablando de una media de 26 meses en el espacio por lo que no cualquier persona
+                    está capacitada para ello.
                 </p>
             </div>
         </div>

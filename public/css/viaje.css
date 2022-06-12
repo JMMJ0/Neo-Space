@@ -247,7 +247,7 @@ ul.menu-left:before {
     clear: both;
 }
 ul.menu-left.collapse {
-    max-height: 21em !important;
+    max-height: 24em !important;
 }
 
 .nav-toggle {
@@ -435,7 +435,7 @@ ul.menu-left.collapse {
 
 .footer {
     position: relative;
-    bottom: 0px;
+    bottom: 0;
     background-color: #fff;
     height: 20vh;
     width: 100%;
@@ -446,3 +446,87 @@ ul.menu-left.collapse {
 
 }
 /* CSS FOOTER END */
+
+@media screen and (max-width: 600px){
+
+
+    .viajes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 12% 0% 5% 0%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        color: white;
+    }
+
+    .card {
+        height: 20%;
+        margin: 5% 5%;
+        width: 100%;
+        border-radius: 10px;
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0 10px 10px rgb(255 255 255 / 42%);
+        display: flex;
+        color: black;
+    }
+
+    .card-info {
+        padding: 8px;
+        position: relative;
+        width: 80%;
+    }
+
+    .link {
+        background-color: #2a265f;
+        border: 0;
+        border-radius: 50px;
+        box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+        color: #fff;
+        font-size: 16px;
+        padding: 11px 56px;
+        position: absolute;
+        bottom: 10px;
+        right: 66px;
+        letter-spacing: 1px;
+    }
+    .card-preview-EarthOrbit {
+        background-image: url(/img/earthMINI.png);
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        padding: 25px;
+        width: 38%;
+    }
+    .card-preview-ISS {
+        background-image: url(/img/issMINI.png);
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        padding: 25px;
+        width: 38%;
+    }
+    
+    .card-preview-Moon {
+        background-image: url(/img/moonMINI.png);
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        padding: 25px;
+        width: 38%;
+    }
+    .card-preview-Mars {
+        background-image: url(/img/marsMIN.png);
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        padding: 25px;
+        width: 38%;
+    }
+}
+
+
