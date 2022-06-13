@@ -531,7 +531,17 @@ video {
     border-bottom: 6px solid rgb(255, 136, 0);
 }
 /* CSS FOOTER END */
-
+.reveal {
+    position: absolute;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 2s all ease;
+}
 @media screen and (max-width: 600px) {
     .dragon {
         height: 90%;
@@ -566,7 +576,7 @@ video {
         align-self: flex-end;
         font-family: "Open Sans";
     }
-    .title2{
+    .title2 {
         color: white;
         position: absolute;
         margin-top: 50px;

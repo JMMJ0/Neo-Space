@@ -24,7 +24,7 @@
     </div>
 
 
-    <div id="two" class="two">
+    <div id="two" class="two ">
         <iframe id="BO" width="560" height="315" src="https://www.youtube.com/embed/1YOL89kY8Og"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -35,7 +35,7 @@
                         d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
                 </svg></span>
         </button>
-        <div class="inf">
+        <div class="inf reveal">
             <h1>ABOUT BLUE ORIGIN</h1>
             <h3>We're committed to building a road to space so our children can build the future</h3>
             <h3 class="">Learn About Our Mission</h3>
@@ -52,7 +52,7 @@
         <video src="video/vgBG.mp4" poster="img/coverVG.jpeg" id="myvideo"></video>
         <div class="txt-cont">
             <div class="thevideo">
-                <div id="inf2" class="inf">
+                <div id="inf2" class="inf reveal">
                     <h1>ABOUT VIRGIN GALACTIC</h1>
                     <h3>We are the worlds first commercial spaceline, and our purpose is to connect people across
                         the globe to the love, wonder and awe created by space travel</h3>
@@ -71,6 +71,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="{{ asset('js/nav.js') }}"></script>
     <script src="{{ asset('js/btn-video.js') }}"></script>
+    <script src="{{ asset('js/text-animation.js') }}"></script>
 </body>
 
 </html>

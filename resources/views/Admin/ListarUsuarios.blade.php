@@ -30,13 +30,13 @@
             </li>
             @foreach ($user as $usuario)
                 <li class="table-row">
-                    <div class="col col-1" data-label="Job Id">{{ $usuario->id }}</div>
-                    <div class="col col-2" data-label="Customer Name">{{ $usuario->name }}</div>
-                    <div class="col col-3" data-label="Amount">{{ $usuario->surname }}</div>
-                    <div class="col col-4" data-label="Payment Status">{{ $usuario->email }}</div>
-                    <div class="col col-5" data-label="Payment Status">{{ $usuario->phone_number }}</div>
-                    <div class="col col-6" data-label="Payment Status">{{ $usuario->ciudad_usuario }}</div>
-                    <div class="col col-7" data-label="Payment Status">
+                    <div class="col col-1" data-label="ID">{{ $usuario->id }}</div>
+                    <div class="col col-2" data-label="Name">{{ $usuario->name }}</div>
+                    <div class="col col-3" data-label="Surname">{{ $usuario->surname }}</div>
+                    <div class="col col-4" data-label="Email">{{ $usuario->email }}</div>
+                    <div class="col col-5" data-label="Phone Number">{{ $usuario->phone_number }}</div>
+                    <div class="col col-6" data-label="City">{{ $usuario->ciudad_usuario }}</div>
+                    <div class="col col-7" data-label="Acciones">
 
 
                         <a href="{{ route('Admin.EditarUsuarios', $usuario->id) }}">EDITAR</a>

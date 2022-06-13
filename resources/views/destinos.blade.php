@@ -28,7 +28,7 @@
 
 
     <div class="estacion">
-        <div class="msgs-diplayed2">
+        <div class="msgs-diplayed2 reveal">
             <div class="buttons">
                 <div class="containerButton">
                     <h4 class="h4txt">MISSION</h4>
@@ -42,7 +42,7 @@
 
 
     <div class="luna">
-        <div class="msgs-diplayed1">
+        <div class="msgs-diplayed1 reveal">
             <div class="buttons">
                 <div class="containerButton">
                     <h4 class="h4txt">MISSION</h4>
@@ -57,7 +57,7 @@
 
 
     <div class="marte">
-        <div class="msgs-diplayed2">
+        <div class="msgs-diplayed2 reveal">
             <div class="buttons">
                 <div class="containerButton">
                     <h4 class="h4txt">MISSION</h4>
@@ -75,6 +75,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="{{ asset('js/nav.js') }}"></script>
+    <script src="{{ asset('js/text-animation.js') }}"></script>
 </body>
 
 </html>

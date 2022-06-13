@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/welcome.css">
+
     {{-- Scripts --}}
 
 
@@ -43,13 +44,13 @@
             <div class="buttons">
                 <div class="containerButton">
                     <a href="{{ url('cohete') }}" class="btn effect01">
-                        <span>Reservar</span></a>
+                        <span>Saber Más</span></a>
                 </div>
             </div>
         </div>
     </div>
     <div class="bg2">
-        <div class="msgs-diplayed1">
+        <div class="msgs-diplayed1 reveal">
             <h4 class="h4txt">Atrévete </h4>
             <h2 class="h2txt">Descubre Nuestras Compañias</h2>
             <div class="buttons">
@@ -63,7 +64,7 @@
     </div>
     <div class="bg3">
         <div class="pri">
-            <div class="sec">
+            <div class="sec reveal">
                 <h1>LAUNCH</h1>
                 <div class="thr"></div>
                 <div class="thr2">
@@ -159,6 +160,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script src="{{ asset('js/nav.js') }}"></script>
+        <script src="{{ asset('js/text-animation.js') }}"></script>
+
 
 </body>
 

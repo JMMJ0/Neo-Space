@@ -364,7 +364,21 @@ video {
     margin-top: 10%;
     position: absolute;
     color: #fff;
+    
 }
+.reveal{
+    position: absolute;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+    transition: 2s all ease;
+  }
+
+
 .h2txt {
     font-size: 4em;
     font-family: "Anton";
@@ -701,8 +715,6 @@ figure figcaption button {
         max-width: 80%;
         color: #fff;
     }
-
-
 
     .bg4 {
         background-color: #fff;

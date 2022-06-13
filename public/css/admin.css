@@ -339,8 +339,6 @@ ul.menu-left.collapse {
 }
 /* CSS DROPDOWN END */
 
-
-
 /* CSS ADMIN PRINCIPAL */
 
 .enlaces {
@@ -534,7 +532,6 @@ ul.menu-left.collapse {
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
     color: white;
-    
 }
 .card {
     height: 20%;
@@ -599,7 +596,7 @@ ul.menu-left.collapse {
     width: 80%;
 }
 
-.link {
+.link_rojo {
     background-color: #bf1313;
     border: 0;
     border-radius: 50px;
@@ -680,7 +677,7 @@ label {
     float: right;
 }
 
- input[type="submit"]:hover {
+input[type="submit"]:hover {
     background-color: #d2615b;
 }
 
@@ -729,3 +726,120 @@ label {
     border-bottom: 6px solid rgb(255, 136, 0);
 }
 /* CSS FOOTER END */
+
+@media screen and (max-width: 600px) {
+    .enlaces {
+        position: relative;
+        height: 470px;
+        width: 88%;
+        margin-left: 6%;
+        flex-wrap: wrap;
+        margin-top: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .enlace {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid white;
+        width: 90%;
+        height: 116px;
+        transition: 200ms;
+    }
+
+    .create-btn {
+        position: relative;
+        margin-top: 20%;
+        margin-left: 75px;
+        width: 165px;
+    }
+    .add-btn {
+        width: 200px;
+        position: relative;
+        margin-top: 35%;
+        margin-left: 5%;
+    }
+    .viajes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        height: 100%;
+        width: 100%;
+        margin: 12% 0% 5% 0%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        color: white;
+    }
+
+    .card {
+        height: 20%;
+        margin: 5% 5%;
+        width: 100%;
+        border-radius: 10px;
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0 10px 10px rgb(255 255 255 / 42%);
+        display: flex;
+        color: black;
+    }
+
+    .card-info {
+        padding: 8px;
+        position: relative;
+        width: 80%;
+    }
+
+    .link_rojo {
+        background-color: #bf1313;
+        border: 0;
+        border-radius: 50px;
+        box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+        color: #fff;
+        font-size: 16px;
+        padding: 7px 52px;
+        position: absolute;
+        bottom: 10px;
+        right: 66px;
+        letter-spacing: 1px;
+    }
+    .card-info input[type="submit"] {
+        width: 65%;
+        margin-top: 0;
+    }
+    .card-preview-EarthOrbit {
+        background-image: url(/img/earthMINI.png);
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        padding: 25px;
+        width: 38%;
+    }
+    .card-preview-ISS {
+        background-image: url(/img/issMINI.png);
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        padding: 25px;
+        width: 38%;
+    }
+
+    .card-preview-Moon {
+        background-image: url(/img/moonMINI.png);
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        padding: 25px;
+        width: 38%;
+    }
+    .card-preview-Mars {
+        background-image: url(/img/marsMIN.png);
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        padding: 25px;
+        width: 38%;
+    }
+}

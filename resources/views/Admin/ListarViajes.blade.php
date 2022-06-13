@@ -35,7 +35,7 @@
                     <form action="{{ route('Admin.borrarViaje', $card->id ) }}" method="post">
                         @csrf
                         {{ method_field('delete') }}
-                        <input class="link" type="submit" value="BORRAR">
+                        <input class="link_rojo" type="submit" value="BORRAR">
                     </form>
                 </div>
             </div>

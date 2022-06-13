@@ -68,11 +68,11 @@
     </div>
 
     <div class="second">
-        <div class="title2">
+        <div class="title2 reveal">
             <h1>Blue Origin HLS</h1>
             <h3>HUMAN LANDING SYSTEM</h3>
         </div>
-        <div class="description">
+        <div class="description reveal">
             <h4>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
                 deserunt. Impedit ullam, modi nihil nulla voluptatem ab! Omnis laborum
@@ -82,7 +82,7 @@
     </div>
 
     <div class="third">
-        <div class="title2">
+        <div class="title2 reveal">
             <h1>Blue Origin-Blue MOON</h1>
             <h3>HUMAN LANDING SYSTEM</h3>
             <h4>
@@ -96,7 +96,7 @@
 
     <div class="fourth">
         <video src="/video/Chapter_2.mp4" muted="true" autoplay="true" loop="true"></video>
-        <div class="title2">
+        <div class="title2 reveal">
             <h1>Virgin Galactic-Rocket</h1>
             <h4>
                 Your 90-minute journey begins with a smooth runway take-off, as our
@@ -113,7 +113,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
+    <script src="{{ asset('js/text-animation.js') }}"></script>
     <script src="{{ asset('js/nav.js') }}"></script>
 </body>
 

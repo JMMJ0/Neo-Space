@@ -360,7 +360,7 @@ ul.menu-left.collapse {
 /* CSS BOTON PLAY BO  */
 .btn-position-bo {
     position: absolute;
-    top: 80%;
+    margin-top: 5%;
     left: 10%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -466,6 +466,17 @@ ul.menu-left.collapse {
 
 /* CSS END BOTON PLAY BO */
 
+.reveal {
+    position: absolute;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 2s all ease;
+}
 .inf {
     display: flex;
     justify-content: center;
@@ -474,7 +485,7 @@ ul.menu-left.collapse {
     color: white;
     height: 60%;
     width: 40%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 5%;
     position: absolute;
 }
@@ -586,12 +597,26 @@ video {
         border: solid 1px white;
         border-radius: 50px;
     }
-    .btn-position{
+    .btn-position {
         top: 60%;
     }
+    #cierra {
+        visibility: hidden;
+        width: 37%;
+        height: 7%;
+        cursor: pointer;
+        display: none;
+        align-items: center;
+        border: 1px solid white;
+        background-color: transparent;
+        border-radius: 50px;
+        box-shadow: 1px 1px 3px rgb(0 0 0 / 15%);
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 53%;
+    }
 
-    #BO{
+    #BO {
         margin-top: 15%;
     }
-    
 }
