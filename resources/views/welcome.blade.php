@@ -91,39 +91,33 @@
                 <figcaption>
                     <h3>Saber Más</h3>
                     <p>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada
-                        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-                        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-                        egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-                        eleifend leo.
+                        En Space Neo junto con la colaboración de Virgin Galactic hemos desarrollado trajes espaciales
+                        los cuales los pasajeros recibiran al llegar a nuestras instalaciones. Estos trajes garantizan
+                        una completa seguridad y comodidad a los pasajeros.
                     </p>
                 </figcaption>
             </figure>
             <figure class="image-block">
 
-                <img src="/img/viaje2.png" alt="viaje2" />
+                <img src="/img/63.jpg" alt="viaje2" />
                 <figcaption>
                     <h3>Saber Más</h3>
                     <p>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada
-                        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-                        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-                        egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-                        eleifend leo.
+                        Bezos viajará al espacio, y lo hará de la mano de su hermano, quien le acompañará el próximo 20
+                        de julio abordo de su cohete
+                        New Shepard. El CEO de Amazon ha manifestado en redes sociales que "Ir al espacio es mi sueño
+                        desde que tenía cinco años.
                     </p>
                 </figcaption>
             </figure>
             <figure class="image-block">
 
-                <img src="/img/viaje3.png" alt="viaje3" />
+                <img src="/img/private_lunar_mission.jpg" alt="viaje3" />
                 <figcaption>
                     <h3>Saber Más</h3>
                     <p>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada
-                        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-                        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-                        egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-                        eleifend leo.
+                        En 2023, el empresario japonés Yusaku Maezawa y la tripulación de dearMoon se convertiran en los
+                        primeros pasajeros en una mision lunar abordo del cohete Dragon. Este vuelo será un gran paso adelante para permitir el acceso a todo el mundo que sueña con viajar al espacio.
                     </p>
                 </figcaption>
             </figure>

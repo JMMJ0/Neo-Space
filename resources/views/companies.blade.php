@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/companies.css">
-    <title>Document</title>
+    <title>SpaceNeo-Compañias</title>
 </head>
 
 <body>
@@ -15,11 +15,11 @@
     <div class="one">
 
         <div class="inf">
-            <h1>ABOUT SPACE X</h1>
-            <h3>SpaceX has gained worldwide attention for a series of historic milestones. It is the only private
-                company capable of returning a spacecraft from low-Earth orbit, and in 2012 our Dragon spacecraft became
-                the first commercial spacecraft to deliver cargo to and from the International Space Station. And in
-                2020, SpaceX became the first private company to take humans there as well</h3>
+            <h1>SOBRE SPACE X</h1>
+            <h3>SpaceX ha ganado la atención mundial por una serie de hitos históricos. es el unico privado
+                compañía capaz de devolver una nave espacial desde la órbita terrestre baja, y en 2012 nuestra nave espacial Dragon se convirtió en
+                la primera nave espacial comercial en entregar carga hacia y desde la Estación Espacial Internacional. Y en
+                2020, SpaceX se convirtió en la primera empresa privada en llevar humanos allí también</h3>
         </div>
     </div>
 
@@ -36,9 +36,9 @@
                 </svg></span>
         </button>
         <div class="inf reveal">
-            <h1>ABOUT BLUE ORIGIN</h1>
-            <h3>We're committed to building a road to space so our children can build the future</h3>
-            <h3 class="">Learn About Our Mission</h3>
+            <h1>SOBRE BLUE ORIGIN</h1>
+            <h3>Estamos comprometidos a construir un camino al espacio para que nuestros hijos puedan construir el futuro.</h3>
+            <h3 class=""> Aprenda sobre nuestra misión</h3>
             <div class="thevideo">
                 <div class="btn-position-bo">
                     <button id="playBO">&#9658;</button>
@@ -53,9 +53,9 @@
         <div class="txt-cont">
             <div class="thevideo">
                 <div id="inf2" class="inf reveal">
-                    <h1>ABOUT VIRGIN GALACTIC</h1>
-                    <h3>We are the worlds first commercial spaceline, and our purpose is to connect people across
-                        the globe to the love, wonder and awe created by space travel</h3>
+                    <h1>SOBRE VIRGIN GALACTIC</h1>
+                    <h3>Somos la primera línea espacial comercial del mundo, y nuestro propósito es conectar a las personas a través
+                        el mundo al amor, la maravilla y el asombro creados por los viajes espaciales</h3>
                 </div>
                 <div class="btn-position">
                     <button id="playVG">&#9658;</button>

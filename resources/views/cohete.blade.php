@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SpaceNeo</title>
+    <title>SpaceNeo-Cohetes</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -22,44 +22,44 @@
     <div class="first">
         <div class="title">
             <h1>DRAGON</h1>
-            <h3>SENDING HUMANS AND CARGO INTO SPACE</h3>
+            <h3>ENVIANDO HUMANOS Y CARGA AL ESPACIO</h3>
         </div>
     </div>
     <div class="dragon">
         <div class="relleno"></div>
         <div class="info">
             <h3>DRAGON</h3>
-            <h2>OVERVIEW</h2>
+            <h2> VISTA GENERAL</h2>
             <table class="data additional-toggle" style="display: table;">
                 <tbody>
                     <tr class="js-stagger"
                         style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-                        <td>HEIGHT</td>
+                        <td>ALTURA</td>
                         <td>8.1 m <span>/ 26.7 ft</span></td>
                     </tr>
                     <tr class="js-stagger"
                         style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-                        <td>DIAMETER</td>
+                        <td>DIÁMETRO</td>
                         <td>4 m <span>/ 13 ft</span></td>
                     </tr>
                     <tr class="js-stagger"
                         style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-                        <td>CAPSULE VOLUME</td>
+                        <td>VOLUMEN DE LA CÁPSULA</td>
                         <td>9.3 m³ <span>/ 328 ft³ </span></td>
                     </tr>
                     <tr class="js-stagger"
                         style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-                        <td>TRUNK VOLUME</td>
+                        <td>VOLUMEN DEL MALETERO</td>
                         <td>37 m³ <span>/ 1300 ft³ </span></td>
                     </tr>
                     <tr class="js-stagger"
                         style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-                        <td>LAUNCH PAYLOAD MASS</td>
+                        <td>MASA DE CARGA DE LANZAMIENTO</td>
                         <td>6,000 kg <span>/ 13,228 lbs</span></td>
                     </tr>
                     <tr class="js-stagger"
                         style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-                        <td>RETURN PAYLOAD MASS</td>
+                        <td>MASA DE CARGA ÚTIL DE RETORNO</td>
                         <td>3,000 kg <span>/ 6,614 lbs</span></td>
                     </tr>
                 </tbody>
@@ -74,9 +74,12 @@
         </div>
         <div class="description reveal">
             <h4>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
-                deserunt. Impedit ullam, modi nihil nulla voluptatem ab! Omnis laborum
-                quibusdam explicabo odio nam odit magni hic minus ut, debitis tempora.
+                El Programa Artemis de la NASA tiene un desafío audaz para llevar a la primera mujer y al próximo hombre
+                a la Luna: devolver a los estadounidenses a la superficie lunar, abrir la Luna para los negocios y
+                construir un camino a Marte. Para lograr estos ambiciosos objetivos, la NASA lanzó una solicitud para
+                que la industria desarrolle la pieza final de su arquitectura lunar Artemis, el Sistema de aterrizaje
+                humano (HLS). El Equipo Nacional integra cuatro empresas, cada una con una ventaja inicial para este
+                programa de ritmo acelerado.
             </h4>
         </div>
     </div>
@@ -86,10 +89,9 @@
             <h1>Blue Origin-Blue MOON</h1>
             <h3>HUMAN LANDING SYSTEM</h3>
             <h4>
-                Blue Moon is a flexible lander delivering a wide variety of small,
-                medium, and large payloads to the lunar surface. Whether cargo or
-                crew, its capability to provide precise and soft landings will enable
-                a sustained human presence on the Moon.
+                Blue Moon es un módulo de aterrizaje flexible que entrega una amplia variedad de cargas útiles pequeñas,
+                medianas y grandes a la superficie lunar. Ya sea carga o tripulación, su capacidad para proporcionar
+                aterrizajes precisos y suaves permitirá una presencia humana sostenida en la Luna.
             </h4>
         </div>
     </div>
@@ -99,10 +101,10 @@
         <div class="title2 reveal">
             <h1>Virgin Galactic-Rocket</h1>
             <h4>
-                Your 90-minute journey begins with a smooth runway take-off, as our
-                spaceship, attached to the mothership, ascends towards the skies. Our
-                spaceflight system utilizes an air-launch, meaning your journey to
-                release altitude is calm and enjoyable.
+                Su viaje de 90 minutos comienza con un despegue suave de la pista, ya que nuestro
+                nave espacial, unida a la nave nodriza, asciende hacia los cielos. Nuestro
+                El sistema de vuelo espacial utiliza un lanzamiento aéreo, lo que significa que su viaje a
+                la altitud de liberación es tranquila y agradable.
             </h4>
         </div>
     </div>
