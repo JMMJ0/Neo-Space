@@ -46,6 +46,7 @@ Route::get('/Viajes/viajesMoon', [ViajeController::class, 'viaje_Moon'])->name('
 Route::get('/Viajes/viajesMars', [ViajeController::class, 'viaje_Mars'])->name('Viajes.viajesMars');
 
 Route::get('/Viajes/reservarViaje/{id}', [UserController::class, 'reservar_viaje'])->middleware(['auth'])->name('reservarViaje');
+Route::get('/Viajes/cancelarViaje/{id}', [UserController::class, 'cancelar_viaje'])->middleware(['auth'])->name('cancelarViaje');
 
 
 

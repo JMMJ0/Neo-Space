@@ -184,5 +184,12 @@ class UserController extends Controller {
 
         return redirect()->action( [ UserController::class, 'viajes_usuario_listado' ] );
     }
+    public function cancelar_viaje( $id ) {
+
+        $user = User::findorfail( Auth::User()->id );
+        $user->viajes()->detach( $id );
+
+        return redirect()->action( [ UserController::class, 'viajes_usuario_listado' ] );
+    }
 
 }

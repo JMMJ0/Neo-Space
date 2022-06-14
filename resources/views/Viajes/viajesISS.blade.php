@@ -34,7 +34,7 @@
 
                         @csrf
                         {{ method_field('put') }}
-                        <input class="link" type="submit" value="Reservar">
+                        <input id="reservar" class="link" type="submit" value="Reservar">
                     </form>
                 </div>
             </div>

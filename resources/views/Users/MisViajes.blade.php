@@ -13,7 +13,7 @@
     <x-nav />
 
     <div class="viajes">
-        <h1>Viajes Realizados</h1>
+        <h1>Viajes Reservados</h1>
 
         @foreach ($viaje as $card)
             <div class="card">
@@ -23,21 +23,27 @@
                     <h2>{{ $card->punto_destino }}</h2>
                 </div>
                 <div class="card-info">
-                    <h6>{{$card->compania}}</h6>
+                    <h6>{{ $card->compania }}</h6>
                     <h2>{{ $card->punto_salida }} |
                         @php
                             echo substr($card->hora, 0, 5);
                         @endphp
 
                     </h2>
+                    <form action="{{ route('cancelarViaje', $card->id )}}" method="POST">
+
+                        @csrf
+                        {{ method_field('get') }}
+                        <input class="link_rojo" type="submit" value="Cancelar Viaje">
+                    </form>
                 </div>
             </div>
         @endforeach
     </div>
     <x-footer />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="{{ asset('js/nav.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="{{ asset('js/nav.js') }}"></script>
 </body>
 
 </html>
