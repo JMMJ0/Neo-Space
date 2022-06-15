@@ -428,6 +428,11 @@ ul.menu-left.collapse {
     right: 30px;
     letter-spacing: 1px;
 }
+.link:hover {
+    background-color: #6a65b8;
+    cursor: pointer;
+
+}
 .link_rojo {
     background-color: #bf1313;
     border: 0;
@@ -506,6 +511,11 @@ ul.menu-left.collapse {
         bottom: 10px;
         right: 66px;
         letter-spacing: 1px;
+    }
+    .link:hover {
+        background-color: #6a65b8;
+        cursor: pointer;
+  
     }
     .card-preview-EarthOrbit {
         background-image: url(/img/earthMINI.png);
