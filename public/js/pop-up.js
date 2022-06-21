@@ -9,7 +9,7 @@ var boton = document.getElementsByClassName("link");
 var cancelar = document.getElementsByClassName("link_rojo");
 var formulario = document.getElementById("confirmacion");
 var borrar = document.getElementsByClassName("borrar");
-var borrarViaje = document.getElementById("borrarViaje");
+
 
 for (var i = 0; i < boton.length; i++) {
     window.onload = boton[i].addEventListener("click", function () {
@@ -67,4 +67,3 @@ for (var i = 0; i < borrar.length; i++) {
         });
     });
 }
-
