@@ -45,7 +45,7 @@
             </div>
             <div class="row">
                 <div class="col-25">
-                    <label for="ciudad_usuario">Introduce la city</label>
+                    <label for="ciudad_usuario">Introduce la ciudad</label>
                 </div>
                 <div class="col-75">
                     <input type="text" id="ciudad_usuario" name="ciudad_usuario" value={{ $user->ciudad_usuario }}>
@@ -53,7 +53,7 @@
             </div>
             <div class="row">
                 <div class="col-25">
-                    <label for="phone_number">Phone</label>
+                    <label for="phone_number">Número de Télefono</label>
                 </div>
                 <div class="col-75">
                     <input type="text" id="phone_number" name="phone_number" value={{ $user->phone_number }}>
@@ -62,7 +62,7 @@
 
             <div class="row">
                 <div class="col-25">
-                    <label for="role">Elige role del usuario</label>
+                    <label for="role">Elige el rol del usuario</label>
                 </div>
                 <div class="col-75">
                     <select id="role" name="role">
@@ -74,7 +74,7 @@
 
             <div class="row">
                 <div class="col-25">
-                    <label for="password">Introduce la contrasenia</label>
+                    <label for="password">Introduce la contraseña</label>
                 </div>
                 <div class="col-75">
                     <input type="password" id="password" name="password">

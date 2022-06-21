@@ -434,6 +434,10 @@ ul.menu-left.collapse {
     font-size: 16px;
     letter-spacing: 1px;
 }
+.cnt-table a:hover{
+    cursor: pointer;
+    background-color: #6350a2;
+}
 
 .cnt-table .borrar {
     background-color: #bf1313;
@@ -446,6 +450,7 @@ ul.menu-left.collapse {
 }
 .cnt-table .borrar:hover {
     cursor: pointer;
+    background-color: #c57676;
 }
 
 .responsive-table li {

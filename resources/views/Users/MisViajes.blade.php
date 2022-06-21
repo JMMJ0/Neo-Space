@@ -30,11 +30,11 @@
                         @endphp
 
                     </h2>
-                    <form action="{{ route('cancelarViaje', $card->id )}}" method="POST">
+                    <form id="confirmacion" action="{{route('cancelarViaje', $card->id)}}" method="POST">
 
                         @csrf
                         {{ method_field('get') }}
-                        <input class="link_rojo" type="submit" value="Cancelar Viaje">
+                        <button type="button" class="link_rojo">Cancelar Viaje</button>
                     </form>
                 </div>
             </div>
@@ -44,6 +44,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="{{ asset('js/nav.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.17/dist/sweetalert2.all.min.js"></script>
+    <script src="{{ asset('js/pop-up.js') }}"></script>
 </body>
 
 </html>

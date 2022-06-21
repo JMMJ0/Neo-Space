@@ -45,7 +45,7 @@ class ViajeController extends Controller {
     }
 
     public function borrar_viaje( $id ) {
-        $viaje = Viaje::find( $id );
+        $viaje = Viaje::findorfail( $id );
 
         $viaje->delete();
 
