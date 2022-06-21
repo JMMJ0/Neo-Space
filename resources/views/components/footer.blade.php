@@ -1,5 +1,5 @@
 <div>
     <div class="footer">
-        <img src="/svg/logoBlack.svg" alt="SpaceNeo" />
+        <img src="\svg\LogoBlack.svg" alt="SpaceNeo" />
     </div>
 </div>

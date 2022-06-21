@@ -446,6 +446,11 @@ ul.menu-left.collapse {
     right: 30px;
     letter-spacing: 1px;
 }
+.link_rojo:hover {
+    background-color: #f59595;
+    cursor: pointer;
+
+}
 
 /* CSS CARD VIAJES END */
 

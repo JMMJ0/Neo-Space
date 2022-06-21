@@ -84,28 +84,12 @@ class UserController extends Controller {
         $user->phone_number = $request->phone_number;
         $user->ciudad_usuario = $request->ciudad_usuario;
 
-        $user = User::findorfail( Auth::User()->id );
-        $viaje = $user->viajes()->get()->take( 2 );
-        $numviajes = count( $user->viajes()->get() );
-
-        foreach ( $viaje as $destino ) {
-
-            $planeta = planeta::find( $destino->punto_destino )->nombre;
-
-            $destino->punto_destino = $planeta;
-
-            $compania = compania::find( $destino->compania )->nombre;
-
-            $destino->compania = $compania;
-
-        }
         $user->save();
 
-        return view( '/Users/profile', [
-            'viaje' => $viaje,
-            'numviajes' => $numviajes
+        return redirect()->action( [ UserController::class, 'viajes_usuario' ] );
+        
 
-        ] );
+ 
     }
 
     public function viajes_usuario() {

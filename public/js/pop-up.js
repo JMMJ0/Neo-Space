@@ -1,17 +1,16 @@
-var reserva = document.getElementById('reservar');
-// ES6 Modules or TypeScript
-import Swal from 'sweetalert2'
+// import Swal from "sweetalert2";
 
-// CommonJS
-const Swal = require('sweetalert2')
+// var boton = document.getElementById("boton");
 
-reserva.addEventListener('click', function(e){
+// const Swal = require("sweetalert2");
+
+
+// const Swal = require("sweetalert2");
+window.onload = document.getElementById("boton").addEventListener("click", function(e){
     Swal.fire({
         position: "center",
         icon: "success",
-        title: "Muchas gracias por su reserva",
-        showConfirmButton: false,
-        timer: 1500,
+        title: "Su reserva se ha realizado con éxito",
+        showConfirmButton: true,
     });
-})
-
+}) 
