@@ -1,15 +1,8 @@
-// import Swal from "sweetalert2";
-
-// var boton = document.getElementById("boton");
-
-// const Swal = require("sweetalert2");
-
-// const Swal = require("sweetalert2");
 var boton = document.getElementsByClassName("link");
 var cancelar = document.getElementsByClassName("link_rojo");
 var formulario = document.getElementById("confirmacion");
 var borrar = document.getElementsByClassName("borrar");
-
+var confirmacion = document.getElementById("confirmacion");
 
 for (var i = 0; i < boton.length; i++) {
     window.onload = boton[i].addEventListener("click", function () {
@@ -24,6 +17,7 @@ for (var i = 0; i < boton.length; i++) {
 
 for (var i = 0; i < cancelar.length; i++) {
     window.onload = cancelar[i].addEventListener("click", function () {
+        console.log();
         Swal.fire({
             title: "¿Estás seguro de que quieres cancelar el viaje?",
             text: "No podrás revertir los cambios",
@@ -39,14 +33,14 @@ for (var i = 0; i < cancelar.length; i++) {
                     "Tus viajes se han actualizado",
                     "success"
                 );
-                document.getElementById("confirmacion").submit();
+                confirmacion.submit();
             }
         });
     });
 }
 
 for (var i = 0; i < borrar.length; i++) {
-    window.onload = borrar[i].addEventListener("click", function () {
+    window.onload = borrar[i].addEventListener("click", function (e) {
         Swal.fire({
             title: "¿Estás seguro de que quieres eliminar este usuario?",
             text: "No podrás revertir los cambios",
