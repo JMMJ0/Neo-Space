@@ -58,7 +58,7 @@ https://www.figma.com/file/SYyFevlfwZVtmMF11owpQx/SPACE%3ANEO?node-id=0%3A1
 ## Checkpoint 13 Mayo 
 https://youtu.be/19_URPpm_Us
 
-## Enlace a la página desplegada
+## Enlace a la página desplegada (Not working anymore)
 http://explore.spaceneo.online/
 
 ## Video Fin Proyecto
